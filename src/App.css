@@ -1,0 +1,104 @@
+body{
+  background: #e9ebee;
+}
+div.post-form{
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+form{
+  width: 500px;
+  display: block;
+  margin: 20px auto;
+  background: #fff;
+  padding: 25px;
+}
+input{
+  border-radius: 7px;
+  height: 36px;
+  line-height: 40px !important;
+  padding: 0px 10px;
+  display: block;
+  margin: 0px auto;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+}
+input:focus, textarea:focus{
+  outline: none;
+}
+textarea{
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+button{
+  float: right;
+  background: #4267b2;
+  border: none;
+  color: #fff;
+  width: 80px;
+  border-radius: 5px;
+  height: 36px;
+  line-height: 34px !important;
+}
+button:hover{
+  cursor: pointer;
+}
+button:focus{
+  background: none !important;
+  -webkit-transition: all .8s;
+  -moz-transition: all .8s;
+  -o-transition: all .8s;
+  transition: all .8s;
+  color: #4267b2 !important;
+  border: 2px solid #4267b2 !important;
+  outline: none !important;
+  height: 36px;
+  line-height: 32px !important;
+}
+div.post-list{
+  width: 49%;
+  display: inline-block;
+  margin: 20px auto;
+  height: 600px;
+  overflow: auto;
+}
+div.post-list::-webkit-scrollbar{ 
+  width: 5px; 
+  background: #ccc; 
+}
+div.post-list::-webkit-scrollbar-thumb{ 
+  background: #8a9a9e; 
+  border-radius:5px; 
+}
+div.post{
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+span.post-title{
+  color: #365899;
+  font-size: 26px;
+  font-weight: 600;
+  display: block;
+}
+button.cancel{
+  background: none;
+  width: 30px;
+  padding: 0px;
+  height: auto;
+}
+button.cancel:focus, button.cancel:active{
+  border: none !important; 
+}
+button.cancel i{
+  color: red;
+  font-size: 26px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
